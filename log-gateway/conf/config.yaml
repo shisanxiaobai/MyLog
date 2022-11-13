@@ -9,8 +9,8 @@ db:
   host: 127.0.0.1
   port: 3306
   dbname: mylog
-  user: root
-  password: "0818"
+  user: 自己的数据库账户
+  password: "自己的数据库密码"
   charset: utf8mb4
 
 etcd:

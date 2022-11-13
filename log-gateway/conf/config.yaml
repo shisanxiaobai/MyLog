@@ -1,0 +1,26 @@
+server:
+  domain: user
+  version: 1.0
+  jwtSecret: my777log
+  grpcAddress: "127.0.0.1:9003"
+
+db:
+  driverName: mysql
+  host: 127.0.0.1
+  port: 3306
+  dbname: mylog
+  user: root
+  password: "0818"
+  charset: utf8mb4
+
+etcd:
+  address: 127.0.0.1:2379
+
+rdb:
+  driver: redis
+  addr: 127.0.0.1:6379
+  local: 7 
+
+domain:
+  user: user
+  task: task
